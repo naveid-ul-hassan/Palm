@@ -1,0 +1,30 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 80px;
+    padding-left: 177px;
+    padding-right: 158px;
+    padding-bottom: 90px;
+}
+.card{
+    padding-top: 14px;
+}
+
+.main_head_tag{
+    margin: 0;
+    font-family: 'Objective';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 145%;
+color: #32C69A;
+}
+.main_para_tag{
+    font-family: 'Objective';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+height: 40px;
+color: #043344;
+}
