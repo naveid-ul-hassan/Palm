@@ -1,10 +1,8 @@
-* {
-  box-sizing: border-box;
-  font-family: "Lato", sans-serif;
-  margin: 0;
-  padding: 0;
+
+#inputID::placeholder {
+  color: #ff0000;
 }
-ul {
+.ft-main-item ul {
   list-style: none;
   padding-left: 0;
   color: #ffffff;
@@ -82,9 +80,9 @@ input[type="email"] {
   /* padding-left: 1rem; */
   margin-top: 0.3125rem;
 
-  height: 48px;
+  height: 30px;
 
-  width: 524px;
+  width: 380px;
 
   /* left: 436px;
   top: 352px; */
@@ -114,7 +112,7 @@ input[type="submit"] {
 }
 .ft-main-input {
   /* padding: 1.25rem 20px; */
-  padding: 4vh 7vh 6vh;
+  padding: 4vh 13vh 6vh;
   display: flex;
   flex-wrap: wrap;
 }
@@ -132,7 +130,7 @@ hr {
 .ft-logo-buttom {
   /* padding-left: 10vh; */
   display: flex;
-  gap: 10px;
+  /* gap: 10px; */
   /* justify-content: flex-end; */
 }
 .img {
@@ -140,27 +138,14 @@ hr {
   margin-bottom: 16px;
   height: 46px;
 }
-button {
-  width: 100px;
-  height: 48px;
 
-  cursor: pointer;
-
-  /* padding: 0.625rem 0.9375rem ; */
-  /* margin-top: 0.1125rem; */
-
-  background: #ffffff;
-  /* Gray / 200 */
-
-  border: 1px solid #d4dbe0;
-  border-radius: 4px;
-}
 
 .img-logo {
   width: 99.99px;
   height: 33px;
   left: -0.01px;
   padding-right: 30px;
+  padding-top: 18px
 }
 .get-intouch {
   padding-right: 3px;
@@ -183,20 +168,7 @@ button {
   line-height: 130%;
 }
 
-button {
-  width: 216px;
-  height: 48px;
 
-  text-transform: uppercase;
-
-  cursor: pointer;
-
-  background: #ffffff;
-  /* Gray / 200 */
-
-  border: 1px solid #d4dbe0;
-  border-radius: 4px;
-}
 /* .input-form{
   
 } */
@@ -214,4 +186,27 @@ button {
 }
 .submit-button {
   color: #32c69a;
+  width: 216px;
+  height: 48px;
+
+  text-transform: uppercase;
+
+
+  background: #ffffff;
+  /* Gray / 200 */
+
+ 
+
+  /* width: 100px;
+  height: 48px; */
+
+  cursor: pointer;
+
+  /* padding: 0.625rem 0.9375rem ; */
+  /* margin-top: 0.1125rem; */
+
+  /* Gray / 200 */
+
+  border: 1px solid #d4dbe0;
+  border-radius: 4px;
 }

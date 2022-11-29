@@ -160,8 +160,11 @@ export default function App() {
             <form>
               <div className="input-form">
                 <input
+                
                   type="email"
                   name="email"
+                  className="inputfield"
+                  id="inputID"
                   placeholder="Enter email address"
                 />
                 <button className="submit-button" style={{backgroundColor: "#FFFFFF", color: "#32C69A"}}> Submit</button>

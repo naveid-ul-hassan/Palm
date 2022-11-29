@@ -72,7 +72,7 @@ function ManagementModel() {
                 img={Track}
                 heading="Set up, track & assess"
                 description=" your HR operations in real-time, in the office or on the go"
-                color="#16CA9C"
+                color="#4EB1F9"
               />
             </div>
           </Col>
@@ -82,7 +82,7 @@ function ManagementModel() {
                 img={Settings}
                 heading="Ensure compliance"
                 description="with the most stringent local labor laws & regulations"
-                color="#16CA9C"
+                color="#FF7762"
               />
             </div>
           </Col>

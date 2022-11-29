@@ -95,6 +95,7 @@
 .right_sec {
   display: flex;
   flex-direction: column;
+  /* gap: 15px; */
 }
 .img_sec {
   /* height: 566px; */
@@ -117,7 +118,9 @@
   height: 65px;
 }
 .heading_h2,
-.text_align_para,
+.text_align_para{
+  font-family: "Objective"
+}
 .feedback_heading_para{
   font-weight: 500;
   font-size: 32px;

@@ -51,7 +51,7 @@ const Header = () => {
               </Link>
             </div>
             <nav className="main-navigation">
-              <ul>
+              <ul className="ulDiv">
                 <li>
                   <Link to="/">Home</Link>
                 </li>
