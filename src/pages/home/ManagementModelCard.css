@@ -4,9 +4,9 @@
   align-items: center;
   justify-content: center;
   background-color: #ffffff;
-  height: 280px;
+  height: 250px;
   border: 2px solid;
-  border-radius: 4px;
+  border-radius: 10px;
 }
 .card_heading_tag {
   font-family: "Objective";
@@ -32,8 +32,9 @@
 }
 .img_tag {
   display: flex;
-  width: 64px;
-  height: 64px;
+  width: 60px;
+  height: 56px;
+
 }
 
 .mt-4 {

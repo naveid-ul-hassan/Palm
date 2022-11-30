@@ -11,6 +11,7 @@ import Faqs from "./Faqs";
 import Offersection from "./Offersection";
 import NewFile from "./NewFile";
 import Scndnewfile from "./Scndnewfile";
+import ButtonFile from "./ButtonFile";
 
 const Landing = () => {
   return (
@@ -25,6 +26,7 @@ const Landing = () => {
       {/* <NewFile /> */}
       {/* <Slider /> */}
       <Offersection />
+      <ButtonFile />
       <Scndnewfile />
       <Faqs />
       

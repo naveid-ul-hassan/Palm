@@ -49,6 +49,7 @@
 
 body{
   margin: 0px !important;
+  overflow-x: hidden !important;
 }
 .boxed-layout .is-sticky {
   max-width: 1600px !important;

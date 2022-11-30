@@ -13,6 +13,7 @@ import Engagement from './images/Engagement.png'
 const Scndnewfile = () => {
   return (
 <div className='scnd-component-container'>
+
         <div className='scnd-component-inner-container'>
  <div className='scnd-component-inner-container-first-section'>
   <div className='first-section-first-child'>

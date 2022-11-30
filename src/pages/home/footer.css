@@ -1,7 +1,3 @@
-
-#inputID::placeholder {
-  color: #ff0000;
-}
 .ft-main-item ul {
   list-style: none;
   padding-left: 0;
@@ -126,6 +122,7 @@ hr {
   justify-content: space-between;
   align-items: center;
   padding: 25px;
+  padding-left: 6.1%;
 }
 .ft-logo-buttom {
   /* padding-left: 10vh; */
@@ -139,17 +136,16 @@ hr {
   height: 46px;
 }
 
-
 .img-logo {
   width: 99.99px;
   height: 33px;
   left: -0.01px;
   padding-right: 30px;
-  padding-top: 18px
+  padding-top: 18px;
 }
 .get-intouch {
   padding-right: 3px;
-  padding-left: 30px;
+  padding-left: 10px;
 }
 .img-icon {
   width: 35.11px;
@@ -167,7 +163,6 @@ hr {
   font-size: 12px;
   line-height: 130%;
 }
-
 
 /* .input-form{
   
@@ -191,11 +186,8 @@ hr {
 
   text-transform: uppercase;
 
-
   background: #ffffff;
   /* Gray / 200 */
-
- 
 
   /* width: 100px;
   height: 48px; */
@@ -210,3 +202,35 @@ hr {
   border: 1px solid #d4dbe0;
   border-radius: 4px;
 }
+.ft-touch-titite {
+  color: #f5f9fa;
+
+  font-family: "Objective";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+@media only screen and (min-width: 1920px /* 1240px */) {
+  input[type="email"] {
+    width: 575px;
+    margin-left: 100px;
+  }
+  .ft-main-input {
+    margin-left: 3%;
+  }
+  .get-intouch {
+    margin-left: 5%;
+  }
+  .ft-main-input-buttom {
+    padding-left: 8.2%;
+  }
+  .ft-logo-buttom {
+    margin-right: 5%;
+  }
+}
+/* ::placeholder {
+  color: gold;
+  opacity: 0.8;
+} */

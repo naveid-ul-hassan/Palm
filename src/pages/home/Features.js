@@ -113,14 +113,17 @@ function Features() {
             regulations, and business protocols.
           </p>
         </div>
+        <div>
+
         <button className="featureBtn">Watch palm.hr in action</button>
+        </div>
 
         <div className="featureHead">
           <p className="featureHeading2">
             Most Popular <span className="bold_text">palm.hr</span> Features
           </p>
         </div>
-        <div>
+        <div className="mainDivAlign">
           {/* {data.map((items) => {
             return condition ? (
               <FeatureList items={items} value={condition} />
@@ -132,7 +135,41 @@ function Features() {
              
             );
           })} */}
-          <FeatureList items={data[0]} value={condition} />
+          
+        <div className="featureRow1">
+          <div className="featureCol1">
+            <div className="featureColPara">
+              <p className="featureColPara1">{data[0]?.heading}</p>
+            </div>
+            <div className="featureColPara2">
+              <p className="featureColService">{data[0]?.descryption}</p>
+            </div>
+            <div>
+              <ul className="featurePoints">
+                {data[0].list8.map((task, index) => {
+                  return <li>{task}</li>;
+                })}
+                {/* <li>{items?.list1}</li>
+              <li>{items?.list2}</li>
+              <li>{items?.list3}</li>
+              <li>{items?.list4}</li>
+              <li>{items?.list5}</li> */}
+              </ul>
+            </div>
+            <div className="featureLogo">
+              <img src={data[0]?.img1} className="featureLogoImg" />
+              <img src={data[0]?.img2} className="featureLogoImg" />
+              <img src={data[0]?.img3} className="featureLogoImg" />
+            </div>
+            <button className="featureBtn" style={{ margin: "5px" }}>
+              Learn More
+            </button>
+          </div>
+          <div className="featureCol2">
+            <img src={data[0]?.Url} className="featureCol2Img" />
+          </div>
+        </div>
+          {/* <FeatureList items={data[0]} value={condition} /> */}
           <FeatureList items={data[1]} value={condition2} />
           <FeatureList items={data[2]} value={condition} />
           <FeatureList items={data[3]} value={condition2} />

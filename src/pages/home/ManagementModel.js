@@ -15,6 +15,7 @@ import "./ManagementModel.css";
 
 function ManagementModel() {
   return (
+    <>
     <div className="main">
       <div>
         <p className="main_head_tag">Implement a people-centric</p>
@@ -56,7 +57,7 @@ function ManagementModel() {
           </Col>
         </Row>
         <Row gutter={[16]}>
-          <Col span={10}>
+          <Col span={9}>
             <div className="mt-4">
               <ManagementModelCard
                 img={UserCircle}
@@ -66,7 +67,7 @@ function ManagementModel() {
               />
             </div>
           </Col>
-          <Col span={6}>
+          <Col span={7}>
             <div className="mt-4">
               <ManagementModelCard
                 img={Track}
@@ -88,7 +89,7 @@ function ManagementModel() {
           </Col>
         </Row>
         <Row gutter={[16]}>
-          <Col span={6}>
+          <Col span={7}>
             <ManagementModelCard
               img={Safeguard}
               heading="Safeguard & retrieve"
@@ -104,7 +105,7 @@ function ManagementModel() {
               color="#11BBD1"
             />
           </Col>
-          <Col span={10}>
+          <Col span={9}>
             <ManagementModelCard
               img={Benefit}
               heading="Benefit from world-class customer service & support"
@@ -114,7 +115,14 @@ function ManagementModel() {
           </Col>
         </Row>
       </div>
+      
     </div>
+    <div className="main_btn">
+    <button className="main_btn_tag">
+    10 Reasons to use palm.hr
+          </button>
+    </div>
+    </>
   );
 }
 export default ManagementModel;

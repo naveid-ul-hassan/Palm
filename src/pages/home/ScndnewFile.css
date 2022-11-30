@@ -27,7 +27,7 @@
 }
 .scnd-component-inner-container-scnd-section{
     height: 25vh; 
-    background-color: darkorange;
+    /* background-color: darkorange; */
 }
 .first-section-first-child img{
     height: 100vh;
@@ -46,8 +46,14 @@
 }
 .content-section-inner-component{
     display: flex;
-    justify-content: space-around;
     align-items: center;
+}
+.content-section-inner-component h3{
+    margin-left: 15px;
+}
+.content-section-inner-component img{
+    width: 10%;
+    height: auto;
 }
 .downcomponents{
     background: #FFFFFF;

@@ -5,7 +5,6 @@ import "./Faqs.css";
 import picture11 from "./images/picture1.png";
 import picture22 from "./images/picture2.png";
 
-
 const data = {
   title: "Frequently Asked Questions",
   rows: [
@@ -62,18 +61,10 @@ const Faqs = () => {
       </div>
       <div className="q-pics-container">
         <div>
-          <img
-            className="q-pic1"
-            src={picture11}
-            alt="Logo"
-          />
+          <img className="q-pic1" src={picture11} alt="Logo" />
         </div>
         <div>
-          <img
-            className="q-pic2"
-            src={picture22}
-            alt="Logo"
-          />
+          <img className="q-pic2" src={picture22} alt="Logo" />
         </div>
       </div>
       <div className="faqs-main">
@@ -85,6 +76,9 @@ const Faqs = () => {
             config={config}
           />
         </div>
+      </div>
+      <div className="q-button-container">
+        <button className="q-button">Request a callback</button>
       </div>
     </>
   );

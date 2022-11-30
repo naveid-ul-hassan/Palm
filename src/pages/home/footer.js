@@ -123,22 +123,13 @@ export default function App() {
               <h2 className="ft-title">Mobile App</h2>
               <div className="padding-buttom">
                 <div className="img">
-                  <img
-                    src={AppStore}
-                    alt="Logo"
-                  />
+                  <img src={AppStore} alt="Logo" />
                 </div>
                 <div className="img">
-                  <img
-                    src={GooglePlay}
-                    alt="Logo"
-                  />
+                  <img src={GooglePlay} alt="Logo" />
                 </div>
                 <div className="img">
-                  <img
-                    src={AppGallery}
-                    alt="Logo"
-                  />
+                  <img src={AppGallery} alt="Logo" />
                 </div>
                 <div>
                   <p className="soon">Coming Soon</p>
@@ -151,7 +142,7 @@ export default function App() {
               <img src={Vector} alt="Logo" />
             </div>
             <div className="get-intouch">
-              <h2 className="ft-title">Get in touch</h2>
+              <h2 className="ft-touch-titite">Get in touch</h2>
               <p className="text-update">
                 All updates on HR right in your inbox.
               </p>
@@ -160,14 +151,18 @@ export default function App() {
             <form>
               <div className="input-form">
                 <input
-                
                   type="email"
                   name="email"
                   className="inputfield"
                   id="inputID"
                   placeholder="Enter email address"
                 />
-                <button className="submit-button" style={{backgroundColor: "#FFFFFF", color: "#32C69A"}}> Submit</button>
+                <button
+                  className="submit-button"
+                  style={{ backgroundColor: "#FFFFFF", color: "#32C69A" }}>
+                  {" "}
+                  Subscribe
+                </button>
               </div>
             </form>
           </section>
@@ -184,10 +179,7 @@ export default function App() {
                 <img src={Facebook} alt="Logo" />
               </div>
               <div className="img-icon">
-                <img
-                  src={LinkedIN}
-                  alt="Logo"
-                />
+                <img src={LinkedIN} alt="Logo" />
               </div>
               <div className="img-icon">
                 <img src={Instagram} alt="Logo" />
