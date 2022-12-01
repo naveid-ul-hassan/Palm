@@ -125,15 +125,15 @@ function Features() {
         </div>
         <div className="mainDivAlign">
           {/* {data.map((items) => {
-            return condition ? (
-              <FeatureList items={items} value={condition} />
-             
-            ) : (
-              // setCondition(false)
+              return condition ? (
+                <FeatureList items={items} value={condition} />
+              
+              ) : (
+                // setCondition(false)
 
-              <FeatureList items={items} value={condition} />
-             
-            );
+                <FeatureList items={items} value={condition} />
+              
+              );
           })} */}
           
         <div className="featureRow1">
@@ -161,7 +161,7 @@ function Features() {
               <img src={data[0]?.img2} className="featureLogoImg" />
               <img src={data[0]?.img3} className="featureLogoImg" />
             </div>
-            <button className="featureBtn" style={{ margin: "5px" }}>
+            <button className="featureBtn featurebtn2" >
               Learn More
             </button>
           </div>

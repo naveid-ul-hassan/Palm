@@ -3,9 +3,7 @@ import "./featureStyle.css";
 
 const FeatureList = ({ items, value }) => {
   return (
-    <>
-      {/* <div className="featureRow"> */}
-      
+    <>      
         <div className={value ? "featureColumn" : "featureRow"}>
           <div className="featureCol1">
             <div className="featureColPara">
@@ -19,11 +17,6 @@ const FeatureList = ({ items, value }) => {
                 {items.list8.map((task, index) => {
                   return <li>{task}</li>;
                 })}
-                {/* <li>{items?.list1}</li>
-              <li>{items?.list2}</li>
-              <li>{items?.list3}</li>
-              <li>{items?.list4}</li>
-              <li>{items?.list5}</li> */}
               </ul>
             </div>
             <div className="featureLogo">
@@ -31,7 +24,7 @@ const FeatureList = ({ items, value }) => {
               <img src={items?.img2} className="featureLogoImg" />
               <img src={items?.img3} className="featureLogoImg" />
             </div>
-            <button className="featureBtn" style={{ margin: "5px" }}>
+            <button className="featureBtn featurebtn2" >
               Learn More
             </button>
           </div>

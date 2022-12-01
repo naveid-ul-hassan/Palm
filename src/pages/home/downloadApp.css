@@ -233,6 +233,14 @@
   margin: 50px 0px;
 }
 
+@media screen and (max-width: 950px) {
+  .feedback_innerdiv{
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+}
+
 .featuresDiv {
   background-color: #f4f6f7;
   padding: 91px 148px;

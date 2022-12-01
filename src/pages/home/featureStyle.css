@@ -7,7 +7,6 @@
 .mainDivAlign {
   display: flex;
   flex-direction: column;
-  /* width: 70%; */
 }
 .featureHeading {
   width: 405px;
@@ -48,6 +47,9 @@
   border-style: solid;
   padding: 7px 14px;
 }
+.featurebtn2 {
+  margin: "5px";
+}
 .featureHeading2 {
   font-family: "Objective";
   font-style: normal;
@@ -87,21 +89,6 @@
   border: 1px solid rgb(50, 198, 154, 0.2);
   border-radius: 30px;
 }
-/* @media screen and (max-width: 1920px) {
-  .mainDivAlign {
-    align-items: center;
-  }
-  .featureColumn {
-    width: 65%;
-  }
-  .featureRow {
-    width: 65%;
-  }
-  .featureRow1 {
-    width: 65%;
-    align-items: center;
-  }
-} */
 
 @media screen and (min-width: 1440px) {
   .featuresDiv {
@@ -171,4 +158,37 @@
 .featureLogoImg {
   width: 33.33px;
   /* height: 36.67px; */
+}
+
+@media screen and (max-width: 1200px) {
+  /* .featureRow1{
+    flex-direction: column;
+  } */
+  .featureColumn,
+  .featureRow1,
+  .featureRow {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 48%;
+  }
+  .featureColPara {
+    text-align: center;
+    margin: auto;
+  }
+  .featureColPara2 {
+    margin: auto;
+    text-align: center;
+  }
+  .featurePoints {
+    margin-left: 22%;
+  }
+  .featureBtn {
+    align-items: center;
+    display: flex;
+  }
+  .featurebtn2 {
+    margin: auto;
+  }
+ 
 }
