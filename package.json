@@ -19,7 +19,7 @@
     "gatsby": "^5.0.0",
     "gatsby-plugin-image": "^3.1.0",
     "gatsby-plugin-less": "^7.0.0",
-    "gatsby-plugin-manifest": "^5.1.0",
+    "gatsby-plugin-manifest": "^5.2.0",
     "gatsby-plugin-sharp": "^5.1.0",
     "gatsby-plugin-sitemap": "^6.1.0",
     "gatsby-source-filesystem": "^5.1.0",
