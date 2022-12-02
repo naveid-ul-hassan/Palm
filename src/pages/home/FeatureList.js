@@ -3,7 +3,7 @@ import "./featureStyle.css";
 
 const FeatureList = ({ items, value }) => {
   return (
-    <>      
+         
         <div className={value ? "featureColumn" : "featureRow"}>
           <div className="featureCol1">
             <div className="featureColPara">
@@ -15,7 +15,7 @@ const FeatureList = ({ items, value }) => {
             <div>
               <ul className="featurePoints">
                 {items.list8.map((task, index) => {
-                  return <li>{task}</li>;
+                  return <li key={index}>{task}</li>;
                 })}
               </ul>
             </div>
@@ -33,7 +33,7 @@ const FeatureList = ({ items, value }) => {
           </div>
         </div>
       
-    </>
+   
   );
 };
 
